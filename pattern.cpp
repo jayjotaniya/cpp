@@ -2,6 +2,15 @@
 using namespace std;
 int main()
 {
-cout<<"hello world";
+int i=1;
+while(i<=5){
+    int j=1;
+    while(j<=5){
+        cout<<i;
+        j++;
+    }
+    cout<<endl;
+    i++;
+}
 return 0;
 }
